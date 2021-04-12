@@ -163,6 +163,7 @@
 			<version>1.18.0</version>
 			<scope>provided</scope>
 		</dependency>
+		
 	</dependencies>
     <build>
         <plugins>
@@ -190,14 +191,6 @@
                     <compilerArgument>-Xlint:all</compilerArgument>
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
-                <configuration>
-                    <mainClass>org.test.int1.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
